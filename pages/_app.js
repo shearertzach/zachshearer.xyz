@@ -6,9 +6,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <div className='min-h-screen'>
       <Header />
-      <Background />
       <div className='max-w-5xl mx-auto'>
         <Component {...pageProps} />
+        <Background />
       </div>
     </div>
   )

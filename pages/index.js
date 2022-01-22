@@ -1,9 +1,14 @@
+import Head from "next/head";
 import Project from "../components/Home/Project";
 import ProjectsContainer from "../components/Home/ProjectsContainer";
 
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Zach Shearer</title>
+      </Head>
+
       <div className="text-center tracking-wide font-light p-2">
         <h1 className="text-4xl text-slate-300">Hello, world!</h1>
         <h1 className="text-3xl mt-2 text-slate-400">I'm a Fullstack Developer</h1>

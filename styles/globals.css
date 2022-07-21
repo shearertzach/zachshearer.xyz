@@ -7,9 +7,9 @@
     @apply bg-gradient-to-br from-indigo-900 to-indigo-800 bg-no-repeat
   }
   .icon-tooltip {
-    @apply absolute w-auto p-2 px-3 min-w-max -bottom-12 rounded-md text-white bg-slate-800 text-sm font-bold transition-all duration-150 border border-slate-700 scale-0 origin-bottom group-hover:scale-100
+    @apply absolute w-auto p-2 px-3 min-w-max top-12 rounded-md text-white bg-slate-800 text-sm font-bold transition-all duration-150 border border-slate-700 scale-0 origin-top group-hover:scale-100
   }
   .tech-tooltip {
-    @apply absolute w-auto p-2 px-3 min-w-max top-8 rounded-md text-white bg-slate-800 text-sm font-bold transition-all duration-150 border border-slate-700 scale-0 origin-bottom group-hover:scale-100
+    @apply absolute w-auto p-2 px-3 min-w-max bottom-8 rounded-md text-white bg-slate-800 text-sm font-bold transition-all duration-150 border border-slate-700 scale-y-0 origin-bottom group-hover:scale-y-100
   }
 }

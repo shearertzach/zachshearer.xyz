@@ -13,10 +13,10 @@ export default function Header({ }) {
       <p className='hidden sm:block relative tracking-widest font-light text-2xl cursor-pointer  transition-all' onClick={() => router.push('/')}>zachshearer.xyz</p>
       <p className='block sm:hidden relative tracking-widest font-light text-2xl cursor-pointer transition-all' onClick={() => router.push('/')}>zach</p>
       <div className='flex items-center'>
-        <IconContainer icon={<FaInbox size={24} />} text='Email' />
-        <IconContainer icon={<AiFillLinkedin size={24} />} text='LinkedIn' />
-        <IconContainer icon={<FaTwitter size={24} />} text='Twitter' />
-        <IconContainer icon={<FaGithub size={24} />} text='GitHub' />
+        <IconContainer icon={<FaInbox size={24} />} text='Email' link={"mailto: shearertzach@gmail.com"}/>
+        <IconContainer icon={<AiFillLinkedin size={24} />} text='LinkedIn' link={"https://linkedin.com/in/zach-shearer"}/>
+        <IconContainer icon={<FaTwitter size={24} />} text='Twitter' link={"https://twitter.com/zach11_"}/>
+        <IconContainer icon={<FaGithub size={24} />} text='GitHub' link={"https://github.com/shearertzach"}/>
       </div>
     </div>
   )

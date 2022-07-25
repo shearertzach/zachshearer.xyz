@@ -5,10 +5,10 @@ import '../styles/globals.css'
 function MyApp({ Component, pageProps }) {
   return (
     <div className='min-h-screen'>
+      <Background />
       <Header />
-      <div className='max-w-5xl mx-auto'>
+      <div className='max-w-6xl mx-auto'>
         <Component {...pageProps} />
-        <Background />
       </div>
     </div>
   )
